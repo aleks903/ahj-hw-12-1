@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="hasher">
+    <input type="file" id="button-select" accept="image/*">
+    <div id="drop-file" class="input-form">
+      Drag and Drop files here or Click to select
+    </div>
+    <div class="algoritm">Hash Algoritm:
+      <span style="position: relative;">
+        <span class="value-algoritm">MD5</span>
+        <div id="change-algoritm" class="change-algoritm hidden">
+          <span class="item-algoritm active">MD5</span>
+          <span class="item-algoritm">SHA1</span>
+          <span class="item-algoritm">SHA256</span>
+          <span class="item-algoritm">SHA512</span>
+        </div>
+      </span>
+    </div>
+  </div>
+  <div>
+    <span>Calculated Hash:</span>
+    <span class="print-hash">xxxxxxxxxxxxxxxxxxxxx</span>
+  </div>
+  <!-- <script type="module" src="index.js"></script> -->
+</body>
+</html>
